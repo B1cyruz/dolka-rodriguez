@@ -62,3 +62,26 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Espacio entre las imágenes */
+}
+
+.animated-image {
+  width: 150px; /* Ajusta el tamaño de las imágenes según sea necesario */
+  height: auto;
+  animation: fadeIn 2s ease-in-out infinite alternate;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0.5;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

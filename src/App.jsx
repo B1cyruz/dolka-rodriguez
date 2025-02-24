@@ -5,6 +5,7 @@ import Gallery from "./pages/Gallery";
 import Quote from "./pages/Quote";
 import Contact from "./pages/Contact";
 import Navbar from "./components/Navbar";
+import "@fontsource/playfair-display"
 
 function App() {
   return (
