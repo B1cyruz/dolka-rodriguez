@@ -20,7 +20,7 @@ export default function Footer() {
                   Dolka Rodríguez
                 </h3>
                 <p className="text-xs text-gray-300 font-medium tracking-widest uppercase">
-                  Alta Costura & Modistería
+                  Alta costura y modistería
                 </p>
               </div>
             </div>
@@ -52,7 +52,7 @@ export default function Footer() {
                 </svg>
               </a>
               <a
-                href="https://wa.me/573000000000"
+                href="https://wa.me/573002795084"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-brand-dark-light flex items-center justify-center text-emerald-400 hover:bg-emerald-500 hover:text-white transition duration-300 shadow-sm"
@@ -78,19 +78,19 @@ export default function Footer() {
               <li>
                 <Link to="/galeria" className="text-gray-300 hover:text-brand-gold transition duration-200 flex items-center gap-2">
                   <Sparkles className="w-3.5 h-3.5 text-brand-gold" />
-                  Galería de Diseños
+                  Galería de diseños
                 </Link>
               </li>
               <li>
                 <Link to="/cotizacion" className="text-gray-300 hover:text-brand-gold transition duration-200 flex items-center gap-2">
                   <Sparkles className="w-3.5 h-3.5 text-brand-gold" />
-                  Solicitar Cotización
+                  Solicitar cotización
                 </Link>
               </li>
               <li>
                 <Link to="/contacto" className="text-gray-300 hover:text-brand-gold transition duration-200 flex items-center gap-2">
                   <Sparkles className="w-3.5 h-3.5 text-brand-gold" />
-                  Contacto & Citas
+                  Contacto & citas
                 </Link>
               </li>
             </ul>
@@ -99,16 +99,16 @@ export default function Footer() {
           {/* Contact Details */}
           <div>
             <h4 className="font-serif text-lg font-semibold text-brand-rose mb-4 border-b border-brand-rose/20 pb-2">
-              Atelier & Contacto
+              Taller & Contacto
             </h4>
             <ul className="space-y-3 text-sm text-gray-300">
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                <span>Taller de Modistería, Dirección Principal, Ciudad</span>
+                <span>Taller de Modistería, Conjunto residencial Santa Ana, Turbaco</span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-brand-gold flex-shrink-0" />
-                <a href="tel:+573000000000" className="hover:text-brand-gold transition">
+                <a href="tel:+573002795084" className="hover:text-brand-gold transition">
                   +57 300 279 5084
                 </a>
               </li>

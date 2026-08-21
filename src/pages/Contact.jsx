@@ -49,10 +49,10 @@ export default function Contact() {
       <div className="text-center max-w-3xl mx-auto space-y-3">
         <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-brand-rose-light text-brand-dark font-medium text-xs border border-brand-rose/40">
           <Sparkles className="w-4 h-4 text-brand-gold-dark" />
-          <span>Taller & Atención Personalizada</span>
+          <span>Taller y atención personalizada</span>
         </div>
         <h1 className="text-4xl sm:text-5xl font-serif font-bold text-brand-dark tracking-tight">
-          Página de Contacto & Citas
+          Página de contacto y citas
         </h1>
         <p className="text-gray-600 text-base">
           Nos encontramos listos para atenderte. Visita nuestro taller de modistería o contáctanos por teléfono o WhatsApp para agendar tu cita de asesoría.
@@ -66,10 +66,10 @@ export default function Contact() {
           <div className="w-12 h-12 rounded-xl bg-brand-rose-light text-brand-dark flex items-center justify-center flex-shrink-0">
             <Phone className="w-6 h-6 text-brand-gold-dark" />
           </div>
-          <div>
-            <h3 className="font-serif font-bold text-lg text-brand-dark">Teléfono & Citas</h3>
+          <div className="min-w-0 flex-1">
+            <h3 className="font-serif font-bold text-lg text-brand-dark truncate">Teléfono & Citas</h3>
             <p className="text-xs text-gray-500 mt-1">Llámanos directamente:</p>
-            <a href="tel:+573000000000" className="text-sm font-semibold text-brand-dark hover:text-brand-gold-dark block mt-1">
+            <a href="tel:+573000000000" className="text-sm font-semibold text-brand-dark hover:text-brand-gold-dark block mt-1 truncate">
               +57 300 279 5084
             </a>
           </div>
@@ -79,14 +79,14 @@ export default function Contact() {
           <div className="w-12 h-12 rounded-xl bg-emerald-100 text-emerald-600 flex items-center justify-center flex-shrink-0">
             <MessageCircle className="w-6 h-6" />
           </div>
-          <div>
-            <h3 className="font-serif font-bold text-lg text-brand-dark">WhatsApp Directo</h3>
+          <div className="min-w-0 flex-1">
+            <h3 className="font-serif font-bold text-lg text-brand-dark truncate">WhatsApp Directo</h3>
             <p className="text-xs text-gray-500 mt-1">Respuesta rápida:</p>
             <a
               href="https://wa.me/573000000000"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-sm font-semibold text-emerald-600 hover:text-emerald-700 block mt-1"
+              className="text-sm font-semibold text-emerald-600 hover:text-emerald-700 block mt-1 truncate"
             >
               Iniciar Chat
             </a>
@@ -97,10 +97,14 @@ export default function Contact() {
           <div className="w-12 h-12 rounded-xl bg-brand-rose-light text-brand-dark flex items-center justify-center flex-shrink-0">
             <Mail className="w-6 h-6 text-brand-gold-dark" />
           </div>
-          <div>
-            <h3 className="font-serif font-bold text-lg text-brand-dark">Correo Electrónico</h3>
+          <div className="min-w-0 flex-1">
+            <h3 className="font-serif font-bold text-lg text-brand-dark truncate">Correo Electrónico</h3>
             <p className="text-xs text-gray-500 mt-1">Escríbenos tu inquietud:</p>
-            <a href="mailto:contacto@dolkarodriguez.com" className="text-sm font-semibold text-brand-dark hover:text-brand-gold-dark block mt-1 truncate">
+            <a 
+              href="mailto:contacto@dolkarodriguez.com" 
+              title="contacto@dolkarodriguez.com"
+              className="text-xs sm:text-sm font-semibold text-brand-dark hover:text-brand-gold-dark block mt-1 truncate"
+            >
               contacto@dolkarodriguez.com
             </a>
           </div>
@@ -110,10 +114,10 @@ export default function Contact() {
           <div className="w-12 h-12 rounded-xl bg-brand-rose-light text-brand-dark flex items-center justify-center flex-shrink-0">
             <Clock className="w-6 h-6 text-brand-gold-dark" />
           </div>
-          <div>
-            <h3 className="font-serif font-bold text-lg text-brand-dark">Horarios Taller</h3>
-            <p className="text-xs text-gray-600 mt-1">Lun - Vie: 8:00 AM - 6:00 PM</p>
-            <p className="text-xs text-gray-600">Sábados: 9:00 AM - 3:00 PM</p>
+          <div className="min-w-0 flex-1">
+            <h3 className="font-serif font-bold text-lg text-brand-dark truncate">Horarios</h3>
+            <p className="text-xs text-gray-600 mt-1 truncate">Lun - Vie: 8:00 AM - 6:00 PM</p>
+            <p className="text-xs text-gray-600 truncate">Sábados: 9:00 AM - 3:00 PM</p>
           </div>
         </div>
 
@@ -147,7 +151,7 @@ export default function Contact() {
                 onClick={() => setFormSubmitted(false)}
                 className="bg-brand-cream hover:bg-brand-cream-dark text-brand-dark font-semibold px-6 py-2.5 rounded-full text-xs transition border border-brand-rose/40 mt-4"
               >
-                Enviar Otro Mensaje
+                Enviar otro mensaje
               </button>
             </div>
           ) : (
@@ -248,8 +252,8 @@ export default function Contact() {
                 <MapPin className="w-5 h-5" />
               </div>
               <div>
-                <h3 className="font-serif text-xl font-bold text-brand-gold">Ubicación del Atelier</h3>
-                <p className="text-xs text-gray-300">Taller de Alta Costura & Modistería</p>
+                <h3 className="font-serif text-xl font-bold text-brand-gold">Ubicación del taller</h3>
+                <p className="text-xs text-gray-300">Turbaco, conjunto residencial Santa Ana</p>
               </div>
             </div>
 
@@ -260,7 +264,7 @@ export default function Contact() {
             <div className="p-4 bg-brand-dark-light rounded-2xl border border-brand-gold/20 space-y-2 text-xs text-gray-300">
               <p className="font-bold text-white flex items-center gap-1.5">
                 <MapPin className="w-4 h-4 text-brand-gold" />
-                Dirección Taller Principal
+                Dirección taller principal
               </p>
               <p className="text-gray-400">Calle Principal de la Modistería, Edificio taller, Local 101, Ciudad.</p>
             </div>
@@ -289,7 +293,7 @@ export default function Contact() {
             <span>Resuelve tus dudas</span>
           </div>
           <h2 className="text-3xl font-serif font-bold text-brand-dark">
-            Preguntas Frecuentes (FAQ)
+            Preguntas frecuentes (FAQ)
           </h2>
         </div>
 

@@ -12,7 +12,7 @@ export default function Home() {
           <div className="lg:col-span-7 space-y-6 text-center lg:text-left">
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-brand-gold/15 text-brand-dark font-medium text-xs sm:text-sm border border-brand-gold/30">
               <Sparkles className="w-4 h-4 text-brand-gold-dark" />
-              <span>Taller de Alta Costura & Confección Sobre Medida</span>
+              <span>Taller de alta costura y confección sobre medida</span>
             </div>
 
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-serif font-bold text-brand-dark tracking-tight leading-tight">
@@ -35,7 +35,7 @@ export default function Home() {
                 to="/galeria"
                 className="bg-white hover:bg-brand-cream text-brand-dark border-2 border-brand-gold/40 font-semibold px-7 py-3.5 rounded-full shadow-sm hover:shadow-md transition-all flex items-center gap-2 text-base"
               >
-                <span>Ver Catálogo</span>
+                <span>Ver catálogo</span>
               </Link>
             </div>
 
@@ -47,11 +47,11 @@ export default function Home() {
               </div>
               <div className="text-center lg:text-left">
                 <p className="font-serif font-bold text-xl text-brand-dark">Alta</p>
-                <p className="text-xs text-gray-600">Calidad en Telas</p>
+                <p className="text-xs text-gray-600">Calidad en telas</p>
               </div>
               <div className="text-center lg:text-left">
                 <p className="font-serif font-bold text-xl text-brand-dark">Ajuste</p>
-                <p className="text-xs text-gray-600">Perfecto Garantizado</p>
+                <p className="text-xs text-gray-600">Perfecto garantizado</p>
               </div>
             </div>
           </div>
@@ -70,21 +70,21 @@ export default function Home() {
                     alt="Dolka Rodriguez Confecciones"
                     className="w-full h-full object-cover group-hover:scale-105 transition duration-700"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-brand-dark/80 via-transparent to-transparent flex flex-col justify-end p-6 text-white">
+                  <div className="absolute inset-0 bg-gradient-to-t from-brand-dark/90 via-brand-dark/30 to-transparent flex flex-col justify-end p-6 pb-12 text-white">
                     <span className="text-xs font-semibold text-brand-gold tracking-widest uppercase mb-1">Dolka Rodríguez</span>
-                    <h3 className="font-serif text-2xl font-bold">Creaciones de Ensueño</h3>
-                    <p className="text-xs text-gray-200 mt-1">Confección artesanal de vestidos de gala y vestuario sobre medida.</p>
+                    <h3 className="font-serif text-2xl font-bold">Creaciones de ensueño</h3>
+                    <p className="text-xs text-gray-200 mt-1 leading-relaxed">Confección artesanal de vestidos de gala y vestuario sobre medida.</p>
                   </div>
                 </div>
 
                 {/* Floating Badge */}
-                <div className="absolute -bottom-4 -left-4 bg-white p-3.5 rounded-2xl shadow-xl border border-brand-gold/30 flex items-center gap-3">
-                  <div className="w-10 h-10 rounded-full bg-brand-rose-light flex items-center justify-center text-brand-gold-dark">
+                <div className="absolute -bottom-5 -right-2 sm:-right-4 bg-white p-3.5 rounded-2xl shadow-xl border border-brand-gold/30 flex items-center gap-3 z-10">
+                  <div className="w-10 h-10 rounded-full bg-brand-rose-light flex items-center justify-center text-brand-gold-dark flex-shrink-0">
                     <Scissors className="w-5 h-5" />
                   </div>
                   <div>
-                    <p className="text-xs text-gray-500 font-medium">Modistería Experta</p>
-                    <p className="text-sm font-bold text-brand-dark font-serif">Confección a Medida</p>
+                    <p className="text-xs text-gray-500 font-medium">Modistería experta</p>
+                    <p className="text-sm font-bold text-brand-dark font-serif">Confección a medida</p>
                   </div>
                 </div>
 
@@ -99,7 +99,7 @@ export default function Home() {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-12">
           <h2 className="text-3xl font-serif font-bold text-brand-dark mb-3">
-            ¿Por Qué Elegir Dolka Rodríguez diseños?
+            ¿Por qué elegir Dolka Rodríguez diseños?
           </h2>
           <p className="text-gray-600">
             Nos dedicamos a hacer sentir especial a cada persona ofreciendo una experiencia integral de modistería y diseño.
@@ -131,7 +131,7 @@ export default function Home() {
             <div className="w-12 h-12 rounded-xl bg-brand-rose-light text-brand-gold-dark flex items-center justify-center mb-4 group-hover:scale-110 transition duration-300">
               <Ruler className="w-6 h-6" />
             </div>
-            <h3 className="font-serif text-xl font-bold text-brand-dark mb-2">Pruebas de Ajuste</h3>
+            <h3 className="font-serif text-xl font-bold text-brand-dark mb-2">Pruebas de ajuste</h3>
             <p className="text-sm text-gray-600 leading-relaxed">
               Sesiones de prueba minuciosas en nuestro taller para que tu vestido moldee tu figura de manera óptima.
             </p>
@@ -155,7 +155,7 @@ export default function Home() {
           <div className="text-center max-w-3xl mx-auto mb-12">
             <span className="text-xs font-semibold text-brand-gold-dark tracking-widest uppercase">Nuestras especialidades</span>
             <h2 className="text-3xl font-serif font-bold text-brand-dark mt-1">
-              Catálogo de confección & servicios
+              Catálogo de confección y servicios
             </h2>
           </div>
 
@@ -180,7 +180,7 @@ export default function Home() {
             <div className="bg-white rounded-2xl overflow-hidden shadow-md border border-brand-rose/30 flex flex-col group hover:shadow-2xl transition duration-300">
               <div className="h-64 overflow-hidden relative">
                 <img src="/images/vestido1.jpg" alt="Vestidos Elegantes" className="w-full h-full object-cover group-hover:scale-110 transition duration-500" />
-                <span className="absolute top-3 left-3 bg-brand-dark/80 backdrop-blur-md text-brand-gold text-xs px-3 py-1 rounded-full font-medium">Novias & XV</span>
+                <span className="absolute top-3 left-3 bg-brand-dark/80 backdrop-blur-md text-brand-gold text-xs px-3 py-1 rounded-full font-medium">Novias</span>
               </div>
               <div className="p-5 flex-1 flex flex-col justify-between">
                 <div>
@@ -196,7 +196,7 @@ export default function Home() {
             <div className="bg-white rounded-2xl overflow-hidden shadow-md border border-brand-rose/30 flex flex-col group hover:shadow-2xl transition duration-300">
               <div className="h-64 overflow-hidden relative">
                 <img src="/images/vestido3.jpg" alt="Vestidos Clásicos" className="w-full h-full object-cover group-hover:scale-110 transition duration-500" />
-                <span className="absolute top-3 left-3 bg-brand-dark/80 backdrop-blur-md text-brand-gold text-xs px-3 py-1 rounded-full font-medium">Coctel & Moda</span>
+                <span className="absolute top-3 left-3 bg-brand-dark/80 backdrop-blur-md text-brand-gold text-xs px-3 py-1 rounded-full font-medium">Coctel</span>
               </div>
               <div className="p-5 flex-1 flex flex-col justify-between">
                 <div>
@@ -212,11 +212,11 @@ export default function Home() {
             <div className="bg-white rounded-2xl overflow-hidden shadow-md border border-brand-rose/30 flex flex-col group hover:shadow-2xl transition duration-300">
               <div className="h-64 overflow-hidden relative">
                 <img src="/images/vestido4.jpg" alt="Uniformes y Trajes" className="w-full h-full object-cover group-hover:scale-110 transition duration-500" />
-                <span className="absolute top-3 left-3 bg-brand-dark/80 backdrop-blur-md text-brand-gold text-xs px-3 py-1 rounded-full font-medium">Uniformes & Ajustes</span>
+                <span className="absolute top-3 left-3 bg-brand-dark/80 backdrop-blur-md text-brand-gold text-xs px-3 py-1 rounded-full font-medium">Uniformes</span>
               </div>
               <div className="p-5 flex-1 flex flex-col justify-between">
                 <div>
-                  <h3 className="font-serif text-xl font-bold text-brand-dark mb-2">Uniformes & trajes</h3>
+                  <h3 className="font-serif text-xl font-bold text-brand-dark mb-2">Uniformes</h3>
                   <p className="text-xs text-gray-600">Confección masiva de alta durabilidad para colegios, empresas y ajustes generales.</p>
                 </div>
                 <Link to="/cotizacion" className="mt-4 text-xs font-bold text-brand-gold-dark hover:text-brand-dark flex items-center gap-1">
@@ -332,10 +332,10 @@ export default function Home() {
         <div className="bg-gradient-to-r from-brand-dark via-brand-dark-light to-brand-dark text-white rounded-3xl p-8 sm:p-12 shadow-2xl border border-brand-gold/30 flex flex-col lg:flex-row items-center justify-between gap-8">
           <div className="space-y-3 text-center lg:text-left max-w-2xl">
             <h2 className="text-3xl sm:text-4xl font-serif font-bold text-brand-gold">
-              ¿Lista Para Diseñar Tu Vestido Ideal?
+              ¿Lista para diseñar tu vestido ideal?
             </h2>
             <p className="text-gray-300 text-sm sm:text-base">
-              Cotiza sin compromiso o agenda tu cita presencial en nuestro atelier. Te asesoramos en la elección de telas, cortes y acabados.
+              Cotiza sin compromiso o agenda tu cita presencial en nuestro taller. Te asesoramos en la elección de telas, cortes y acabados.
             </p>
           </div>
 

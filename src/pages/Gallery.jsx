@@ -12,13 +12,13 @@ export default function Gallery() {
     { id: "gala", label: "Gala & Noche" },
     { id: "novias", label: "Novias & Quinceañeras" },
     { id: "coctel", label: "Coctel & Casual" },
-    { id: "uniformes", label: "Uniformes & Corporativo" },
+    { id: "uniformes", label: "Uniformes / Corporativo" },
   ];
 
   const dresses = [
     {
       id: 1,
-      name: "Vestido Gala Real",
+      name: "Vestido gala real",
       category: "gala",
       categoryName: "Gala & Noche",
       image: "/images/vestido1.jpg",
@@ -29,7 +29,7 @@ export default function Gallery() {
     },
     {
       id: 2,
-      name: "Vestido Noche Esmeralda",
+      name: "Vestido noche esmeralda",
       category: "gala",
       categoryName: "Gala & Noche",
       image: "/images/vestido2.jpg",
@@ -40,7 +40,7 @@ export default function Gallery() {
     },
     {
       id: 3,
-      name: "Vestido Coctel Clásico",
+      name: "Vestido coctel clásico",
       category: "coctel",
       categoryName: "Coctel & Casual",
       image: "/images/vestido3.jpg",
@@ -51,7 +51,7 @@ export default function Gallery() {
     },
     {
       id: 4,
-      name: "Vestido Noche Estelar",
+      name: "Vestido noche estelar",
       category: "gala",
       categoryName: "Gala & Noche",
       image: "/images/vestido4.jpg",
@@ -62,7 +62,7 @@ export default function Gallery() {
     },
     {
       id: 5,
-      name: "Vestido Novia Ensueño",
+      name: "Vestido novia ensueño",
       category: "novias",
       categoryName: "Novias & Quinceañeras",
       image: "/images/vestido1.jpg",
@@ -73,11 +73,11 @@ export default function Gallery() {
     },
     {
       id: 6,
-      name: "Uniforme Corporativo Ejecutivo",
+      name: "Uniforme / Corporativo / Ejecutivo",
       category: "uniformes",
-      categoryName: "Uniformes & Corporativo",
+      categoryName: "Uniformes / Corporativo",
       image: "/images/vestido4.jpg",
-      description: "Traje/Uniforme institucional de alta durabilidad, confeccionado con costuras reforzadas para empresas e instituciones.",
+      description: "Uniforme institucional de alta durabilidad, confeccionado con costuras reforzadas para empresas e instituciones.",
       fabric: "Poliéster Algodón Antiarrugas",
       timeframe: "Según volumen de producción",
       details: ["Telas de uso rudo y fácil lavado", "Bordado de logotipo corporativo", "Tallaje exacto por empleado"],
@@ -100,7 +100,7 @@ export default function Gallery() {
       <div className="text-center max-w-3xl mx-auto space-y-3">
         <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-brand-rose-light text-brand-dark font-medium text-xs border border-brand-rose/40">
           <Sparkles className="w-4 h-4 text-brand-gold-dark" />
-          <span>Colección de Alta Costura & Modistería</span>
+          <span>Colección de alta costura y modistería</span>
         </div>
         <h1 className="text-4xl sm:text-5xl font-serif font-bold text-brand-dark tracking-tight">
           Catálogo & Galería de Diseños
@@ -244,7 +244,7 @@ export default function Gallery() {
 
                 {activeModalDress.details && (
                   <div className="space-y-1.5 pt-2">
-                    <p className="text-xs font-bold text-brand-dark uppercase tracking-wider">Características de Confección:</p>
+                    <p className="text-xs font-bold text-brand-dark uppercase tracking-wider">Características de confección:</p>
                     <ul className="space-y-1 text-xs text-gray-600">
                       {activeModalDress.details.map((detail, idx) => (
                         <li key={idx} className="flex items-center gap-2">
@@ -262,7 +262,7 @@ export default function Gallery() {
                   onClick={() => handleQuoteThisDress(activeModalDress.name)}
                   className="flex-1 bg-brand-gold hover:bg-brand-gold-dark text-brand-dark font-bold py-3 px-4 rounded-full text-center text-sm shadow-md transition flex items-center justify-center gap-2"
                 >
-                  <span>Cotizar Esta Prenda</span>
+                  <span>Cotizar esta prenda</span>
                   <ArrowRight className="w-4 h-4" />
                 </button>
               </div>
@@ -282,7 +282,7 @@ export default function Gallery() {
           to="/cotizacion"
           className="bg-brand-dark hover:bg-brand-dark-light text-brand-gold font-bold px-6 py-3 rounded-full text-sm shadow-md transition whitespace-nowrap"
         >
-          Enviar Mi Diseño
+          Enviar mi diseño
         </Link>
       </div>
 

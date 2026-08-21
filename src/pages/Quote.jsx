@@ -90,7 +90,7 @@ export default function Quote() {
       <div className="text-center space-y-3">
         <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-brand-rose-light text-brand-dark font-medium text-xs border border-brand-rose/40">
           <Sparkles className="w-4 h-4 text-brand-gold-dark" />
-          <span>Presupuesto Sin Compromiso</span>
+          <span>Presupuesto sin compromiso</span>
         </div>
         <h1 className="text-4xl sm:text-5xl font-serif font-bold text-brand-dark tracking-tight">
           Solicitar Cotización
