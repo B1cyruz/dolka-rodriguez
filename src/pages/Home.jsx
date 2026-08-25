@@ -211,13 +211,13 @@ export default function Home() {
 
             <div className="bg-white rounded-2xl overflow-hidden shadow-md border border-brand-rose/30 flex flex-col group hover:shadow-2xl transition duration-300">
               <div className="h-64 overflow-hidden relative">
-                <img src="/images/vestido4.jpg" alt="Uniformes y Trajes" className="w-full h-full object-cover group-hover:scale-110 transition duration-500" />
+                <img src="/images/uniforme.jpg" alt="Uniformes y Trajes" className="w-full h-full object-cover group-hover:scale-110 transition duration-500" />
                 <span className="absolute top-3 left-3 bg-brand-dark/80 backdrop-blur-md text-brand-gold text-xs px-3 py-1 rounded-full font-medium">Uniformes</span>
               </div>
               <div className="p-5 flex-1 flex flex-col justify-between">
                 <div>
-                  <h3 className="font-serif text-xl font-bold text-brand-dark mb-2">Uniformes</h3>
-                  <p className="text-xs text-gray-600">Confección masiva de alta durabilidad para colegios, empresas y ajustes generales.</p>
+                  <h3 className="font-serif text-xl font-bold text-brand-dark mb-2">Uniformes escolares</h3>
+                  <p className="text-xs text-gray-600">Confección masiva de alta durabilidad para colegios, e instituciones educativas, tambien ajustes generales.</p>
                 </div>
                 <Link to="/cotizacion" className="mt-4 text-xs font-bold text-brand-gold-dark hover:text-brand-dark flex items-center gap-1">
                   Cotizar uniforme <ArrowRight className="w-3.5 h-3.5" />

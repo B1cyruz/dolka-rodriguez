@@ -12,7 +12,8 @@ export default function Gallery() {
     { id: "gala", label: "Gala & Noche" },
     { id: "novias", label: "Novias & Quinceañeras" },
     { id: "coctel", label: "Coctel & Casual" },
-    { id: "uniformes", label: "Uniformes / Corporativo" },
+    { id: "uniformes", label: "Uniformes escolares" },
+    { id: "corporativo", label: "Uniformes corporativos" }
   ];
 
   const dresses = [
@@ -73,11 +74,23 @@ export default function Gallery() {
     },
     {
       id: 6,
-      name: "Uniforme / Corporativo / Ejecutivo",
+      name: "Uniforme escolares premium",
       category: "uniformes",
-      categoryName: "Uniformes / Corporativo",
-      image: "/images/vestido4.jpg",
+      categoryName: "Uniformes escolares",
+      image: "/images/uniforme.jpg",
       description: "Uniforme institucional de alta durabilidad, confeccionado con costuras reforzadas para empresas e instituciones.",
+      fabric: "Poliéster Algodón Antiarrugas",
+      timeframe: "Según volumen de producción",
+      details: ["Telas de uso rudo y fácil lavado", "Bordado de logotipo corporativo", "Tallaje exacto por empleado"],
+    },
+
+    {
+      id: 7,
+      name: "Uniformes corporativo y ejecutivo",
+      category: "corporativo",
+      categoryName: "Uniformes corporativos",
+      image: "/images/corporativo.jpg",
+      description: "Uniformes empresariales de alta calidad, confeccionados con materiales resistentes para uso diario en entornos profesionales.",
       fabric: "Poliéster Algodón Antiarrugas",
       timeframe: "Según volumen de producción",
       details: ["Telas de uso rudo y fácil lavado", "Bordado de logotipo corporativo", "Tallaje exacto por empleado"],
