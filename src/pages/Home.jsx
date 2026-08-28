@@ -160,7 +160,7 @@ export default function Home() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            
+
             <div className="bg-white rounded-2xl overflow-hidden shadow-md border border-brand-rose/30 flex flex-col group hover:shadow-2xl transition duration-300">
               <div className="h-64 overflow-hidden relative">
                 <img src="/images/vestido2.jpg" alt="Vestidos de Gala" className="w-full h-full object-cover group-hover:scale-110 transition duration-500" />

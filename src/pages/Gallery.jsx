@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { Sparkles, Eye, X, ArrowRight, CheckCircle2, Scissors, Clock } from "lucide-react";
 
 export default function Gallery() {
@@ -12,14 +12,14 @@ export default function Gallery() {
     { id: "gala", label: "Gala & Noche" },
     { id: "novias", label: "Novias & Quinceañeras" },
     { id: "coctel", label: "Coctel & Casual" },
-    { id: "uniformes", label: "Uniformes escolares" },
-    { id: "corporativo", label: "Uniformes corporativos" }
+    { id: "uniformes", label: "Uniformes corporativos" },
+    { id: "uniformes escolares", label: "Uniformes escolares" },
   ];
 
   const dresses = [
     {
       id: 1,
-      name: "Vestido gala real",
+      name: "Vestido Gala Real",
       category: "gala",
       categoryName: "Gala & Noche",
       image: "/images/vestido1.jpg",
@@ -30,7 +30,7 @@ export default function Gallery() {
     },
     {
       id: 2,
-      name: "Vestido noche esmeralda",
+      name: "Vestido Noche Esmeralda",
       category: "gala",
       categoryName: "Gala & Noche",
       image: "/images/vestido2.jpg",
@@ -41,7 +41,7 @@ export default function Gallery() {
     },
     {
       id: 3,
-      name: "Vestido coctel clásico",
+      name: "Vestido Coctel Clásico",
       category: "coctel",
       categoryName: "Coctel & Casual",
       image: "/images/vestido3.jpg",
@@ -52,7 +52,7 @@ export default function Gallery() {
     },
     {
       id: 4,
-      name: "Vestido noche estelar",
+      name: "Vestido Noche Estelar",
       category: "gala",
       categoryName: "Gala & Noche",
       image: "/images/vestido4.jpg",
@@ -63,7 +63,7 @@ export default function Gallery() {
     },
     {
       id: 5,
-      name: "Vestido novia ensueño",
+      name: "Vestido Novia Ensueño",
       category: "novias",
       categoryName: "Novias & Quinceañeras",
       image: "/images/vestido1.jpg",
@@ -74,26 +74,25 @@ export default function Gallery() {
     },
     {
       id: 6,
-      name: "Uniforme escolares premium",
+      name: "Uniforme Corporativo Ejecutivo",
       category: "uniformes",
-      categoryName: "Uniformes escolares",
-      image: "/images/uniforme.jpg",
-      description: "Uniforme institucional de alta durabilidad, confeccionado con costuras reforzadas para empresas e instituciones.",
+      categoryName: "Uniformes corporativos",
+      image: "/images/corporativo.jpg",
+      description: "Traje/Uniforme institucional de alta durabilidad, confeccionado con costuras reforzadas para empresas e instituciones.",
       fabric: "Poliéster Algodón Antiarrugas",
       timeframe: "Según volumen de producción",
       details: ["Telas de uso rudo y fácil lavado", "Bordado de logotipo corporativo", "Tallaje exacto por empleado"],
     },
-
     {
       id: 7,
-      name: "Uniformes corporativo y ejecutivo",
-      category: "corporativo",
-      categoryName: "Uniformes corporativos",
-      image: "/images/corporativo.jpg",
-      description: "Uniformes empresariales de alta calidad, confeccionados con materiales resistentes para uso diario en entornos profesionales.",
-      fabric: "Poliéster Algodón Antiarrugas",
-      timeframe: "Según volumen de producción",
-      details: ["Telas de uso rudo y fácil lavado", "Bordado de logotipo corporativo", "Tallaje exacto por empleado"],
+      name: "Uniforme escolar clásico",
+      category: "uniformes escolares",
+      categoryName: "Uniformes escolares",
+      image: "/images/uniforme.jpg",
+      description: "Diseño contemporáneo para estudiantes, confeccionado en telas transpirables y resistentes al desgaste.",
+      fabric: "Poliéster Algodón",
+      timeframe: "15 - 20 días de confección",
+      details: ["Diseño ergonómico", "Colores vibrantes", "Fácil mantenimiento"],
     },
   ];
 
@@ -113,7 +112,7 @@ export default function Gallery() {
       <div className="text-center max-w-3xl mx-auto space-y-3">
         <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-brand-rose-light text-brand-dark font-medium text-xs border border-brand-rose/40">
           <Sparkles className="w-4 h-4 text-brand-gold-dark" />
-          <span>Colección de alta costura y modistería</span>
+          <span>Colección de Alta Costura & Modistería</span>
         </div>
         <h1 className="text-4xl sm:text-5xl font-serif font-bold text-brand-dark tracking-tight">
           Catálogo & Galería de Diseños
@@ -234,7 +233,7 @@ export default function Gallery() {
             <div className="md:w-1/2 p-6 md:p-8 flex flex-col justify-between space-y-4 overflow-y-auto">
               <div className="space-y-4">
                 <div>
-                  <span className="text-xs font-semibold text-brand-gold-dark uppercase tracking-wider">Dolka Rodríguez taller</span>
+                  <span className="text-xs font-semibold text-brand-gold-dark uppercase tracking-wider">Dolka Rodríguez Atelier</span>
                   <h3 className="font-serif text-2xl md:text-3xl font-bold text-brand-dark">
                     {activeModalDress.name}
                   </h3>
@@ -257,7 +256,7 @@ export default function Gallery() {
 
                 {activeModalDress.details && (
                   <div className="space-y-1.5 pt-2">
-                    <p className="text-xs font-bold text-brand-dark uppercase tracking-wider">Características de confección:</p>
+                    <p className="text-xs font-bold text-brand-dark uppercase tracking-wider">Características de Confección:</p>
                     <ul className="space-y-1 text-xs text-gray-600">
                       {activeModalDress.details.map((detail, idx) => (
                         <li key={idx} className="flex items-center gap-2">
@@ -275,7 +274,7 @@ export default function Gallery() {
                   onClick={() => handleQuoteThisDress(activeModalDress.name)}
                   className="flex-1 bg-brand-gold hover:bg-brand-gold-dark text-brand-dark font-bold py-3 px-4 rounded-full text-center text-sm shadow-md transition flex items-center justify-center gap-2"
                 >
-                  <span>Cotizar esta prenda</span>
+                  <span>Cotizar Esta Prenda</span>
                   <ArrowRight className="w-4 h-4" />
                 </button>
               </div>
@@ -291,12 +290,12 @@ export default function Gallery() {
           <h3 className="font-serif text-2xl font-bold text-brand-dark">¿Tienes una idea o foto de referencia?</h3>
           <p className="text-sm text-gray-600 mt-1">Confeccionamos cualquier diseño que tengas en mente. Envíanos tu foto para darte un presupuesto exacto.</p>
         </div>
-        <Link
-          to="/cotizacion"
+        <button
+          onClick={() => navigate('/cotizacion')}
           className="bg-brand-dark hover:bg-brand-dark-light text-brand-gold font-bold px-6 py-3 rounded-full text-sm shadow-md transition whitespace-nowrap"
         >
-          Enviar mi diseño
-        </Link>
+          Enviar Mi Diseño
+        </button>
       </div>
 
     </div>

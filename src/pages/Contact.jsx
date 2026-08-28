@@ -105,7 +105,7 @@ export default function Contact() {
               title="contacto@dolkarodriguez.com"
               className="text-xs sm:text-sm font-semibold text-brand-dark hover:text-brand-gold-dark block mt-1 truncate"
             >
-              contacto@dolkarodriguez.com
+              dolka36@gmail.com
             </a>
           </div>
         </div>
