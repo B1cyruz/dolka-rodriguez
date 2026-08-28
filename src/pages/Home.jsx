@@ -179,12 +179,12 @@ export default function Home() {
 
             <div className="bg-white rounded-2xl overflow-hidden shadow-md border border-brand-rose/30 flex flex-col group hover:shadow-2xl transition duration-300">
               <div className="h-64 overflow-hidden relative">
-                <img src="/images/vestido1.jpg" alt="Vestidos Elegantes" className="w-full h-full object-cover group-hover:scale-110 transition duration-500" />
+                <img src="/images/novia.jpg" alt="Vestidos Elegantes" className="w-full h-full object-cover group-hover:scale-110 transition duration-500" />
                 <span className="absolute top-3 left-3 bg-brand-dark/80 backdrop-blur-md text-brand-gold text-xs px-3 py-1 rounded-full font-medium">Novias</span>
               </div>
               <div className="p-5 flex-1 flex flex-col justify-between">
                 <div>
-                  <h3 className="font-serif text-xl font-bold text-brand-dark mb-2">Novias & quinceañeras</h3>
+                  <h3 className="font-serif text-xl font-bold text-brand-dark mb-2">Novias</h3>
                   <p className="text-xs text-gray-600">Creaciones de gran formato con pedrería, encajes delicados y velos a juego.</p>
                 </div>
                 <Link to="/galeria" className="mt-4 text-xs font-bold text-brand-gold-dark hover:text-brand-dark flex items-center gap-1">

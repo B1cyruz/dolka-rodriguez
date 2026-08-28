@@ -10,7 +10,8 @@ export default function Gallery() {
   const categories = [
     { id: "todos", label: "Todos los Diseños" },
     { id: "gala", label: "Gala & Noche" },
-    { id: "novias", label: "Novias & Quinceañeras" },
+    { id: "novias", label: "Novias" },
+    { id: "Quinciañeras", label: "Quinceañeras" },
     { id: "coctel", label: "Coctel & Casual" },
     { id: "uniformes", label: "Uniformes corporativos" },
     { id: "uniformes escolares", label: "Uniformes escolares" },
@@ -21,7 +22,7 @@ export default function Gallery() {
       id: 1,
       name: "Vestido Gala Real",
       category: "gala",
-      categoryName: "Gala & Noche",
+      categoryName: "Gala real",
       image: "/images/vestido1.jpg",
       description: "Diseño sofisticado con corte sirena, escote favorecedor y drapeado artesanal confeccionado en satén de seda.",
       fabric: "Satén de Seda & Organza",
@@ -30,9 +31,9 @@ export default function Gallery() {
     },
     {
       id: 2,
-      name: "Vestido Noche Esmeralda",
+      name: "Vestido Esmeralda",
       category: "gala",
-      categoryName: "Gala & Noche",
+      categoryName: "Gala casual",
       image: "/images/vestido2.jpg",
       description: "Espectacular vestido de noche con detalles sutiles de pedrería fina y silueta estilizada para recepciones inolvidables.",
       fabric: "Crepe Premium & Aplicaciones",
@@ -52,9 +53,9 @@ export default function Gallery() {
     },
     {
       id: 4,
-      name: "Vestido Noche Estelar",
+      name: "Vestido Noche",
       category: "gala",
-      categoryName: "Gala & Noche",
+      categoryName: "Gala noche",
       image: "/images/vestido4.jpg",
       description: "Diseño audaz y glamuroso para eventos nocturnos de alta etiqueta. Confección a medida con ajuste milimétrico.",
       fabric: "Velvet Silk & Lentejuelas",
@@ -65,8 +66,8 @@ export default function Gallery() {
       id: 5,
       name: "Vestido Novia Ensueño",
       category: "novias",
-      categoryName: "Novias & Quinceañeras",
-      image: "/images/vestido1.jpg",
+      categoryName: "Novias",
+      image: "/images/novia.jpg",
       description: "Vestido de novia sobre medida con cola catedral, encaje de encanto nupcial y detalles delicados en tul cristal.",
       fabric: "Encaje Nupcial & Tul Cristal",
       timeframe: "20 - 30 días (Incluye 3 pruebas)",
@@ -94,6 +95,17 @@ export default function Gallery() {
       timeframe: "15 - 20 días de confección",
       details: ["Diseño ergonómico", "Colores vibrantes", "Fácil mantenimiento"],
     },
+    {
+      id: 8,
+      name: "Vestido Quinceañera Princesa",
+      category: "Quinciañeras",
+      categoryName: "Quinceañeras",
+      image: "/images/quince.jpg",
+      description: "Vestido de quinceañera con falda amplia y corset bordado, ideal para un look de cuento de hadas.",
+      fabric: "Tafeta & Tul Bordado",
+      timeframe: "25 - 35 días de confección",
+      details: ["Corset ajustable", "Falda con varias capas de tul", "Opciones de color personalizadas"],
+    }
   ];
 
   const filteredDresses = selectedCategory === "todos"
