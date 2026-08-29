@@ -253,7 +253,7 @@ export default function Contact() {
               </div>
               <div>
                 <h3 className="font-serif text-xl font-bold text-brand-gold">Ubicación del taller</h3>
-                <p className="text-xs text-gray-300">Turbaco, conjunto residencial Santa Ana</p>
+                <p className="text-xs text-gray-300">Turbaco, Bolívar Urbanización Santa Ana, Calle 13 # 25-34 Casa 34</p>
               </div>
             </div>
 
@@ -266,7 +266,7 @@ export default function Contact() {
                 <MapPin className="w-4 h-4 text-brand-gold" />
                 Dirección taller principal
               </p>
-              <p className="text-gray-400">Calle Principal de la Modistería, Edificio taller, Local 101, Ciudad.</p>
+              <p className="text-gray-400">Turbaco, Bolívar Urbanización Santa Ana, Calle 13 # 25-34 Casa 34</p>
             </div>
 
             {/* Visual Studio Card / Mock map */}

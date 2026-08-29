@@ -173,7 +173,7 @@ export function generateQuotePDF(data) {
   doc.setFont("helvetica", "bold");
   doc.setFontSize(10.5);
   doc.setTextColor(42, 36, 33);
-  doc.text("4. DESCRIPCIÓN & OBSERVACIONES DE CONFECCIÓN", 20, y + 7);
+  doc.text("4. DESCRIPCIÓN - OBSERVACIONES DE CONFECCIÓN", 20, y + 7);
 
   doc.setFont("helvetica", "normal");
   doc.setFontSize(8.5);

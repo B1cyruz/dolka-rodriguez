@@ -104,7 +104,7 @@ export default function Footer() {
             <ul className="space-y-3 text-sm text-gray-300">
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                <span>Taller de Modistería, Conjunto residencial Santa Ana, Turbaco</span>
+                <span>Turbaco, Bolívar Urbanización Santa Ana, Calle 13 # 25-34 Casa 34</span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-brand-gold flex-shrink-0" />

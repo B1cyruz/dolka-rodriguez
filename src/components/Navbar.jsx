@@ -24,7 +24,7 @@ export default function Navbar() {
             </span>
             <span className="hidden md:flex items-center gap-1">
               <MapPin className="w-3.5 h-3.5 text-brand-gold" />
-              Taller de Modistería & Alta Costura
+              Turbaco, Bolívar Urbanización Santa Ana, Calle 13 # 25-34 Casa 34
             </span>
           </div>
           <div className="flex items-center space-x-3">
