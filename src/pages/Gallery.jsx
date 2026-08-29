@@ -9,7 +9,7 @@ export default function Gallery() {
 
   const categories = [
     { id: "todos", label: "Todos los Diseños" },
-    { id: "gala", label: "Gala & Noche" },
+    { id: "gala", label: "Gala" },
     { id: "novias", label: "Novias" },
     { id: "Quinciañeras", label: "Quinceañeras" },
     { id: "coctel", label: "Coctel & Casual" },

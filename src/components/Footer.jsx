@@ -30,7 +30,7 @@ export default function Footer() {
             </p>
             <div className="flex space-x-3 pt-2">
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/dolkarodriguez?igsi=MTQydHBhZmluOGphNQ=="
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-brand-dark-light flex items-center justify-center text-brand-gold hover:bg-brand-gold hover:text-brand-dark transition duration-300 shadow-sm"
@@ -41,7 +41,7 @@ export default function Footer() {
                 </svg>
               </a>
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/share/1EmQTi19yJ/?mibextid=wwXIfr"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-brand-dark-light flex items-center justify-center text-brand-gold hover:bg-brand-gold hover:text-brand-dark transition duration-300 shadow-sm"
