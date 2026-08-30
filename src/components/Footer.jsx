@@ -90,7 +90,7 @@ export default function Footer() {
               <li>
                 <Link to="/contacto" className="text-gray-300 hover:text-brand-gold transition duration-200 flex items-center gap-2">
                   <Sparkles className="w-3.5 h-3.5 text-brand-gold" />
-                  Contacto & citas
+                  Contacto y citas
                 </Link>
               </li>
             </ul>
@@ -99,7 +99,7 @@ export default function Footer() {
           {/* Contact Details */}
           <div>
             <h4 className="font-serif text-lg font-semibold text-brand-rose mb-4 border-b border-brand-rose/20 pb-2">
-              Taller & Contacto
+              Taller y Contacto
             </h4>
             <ul className="space-y-3 text-sm text-gray-300">
               <li className="flex items-start gap-3">
