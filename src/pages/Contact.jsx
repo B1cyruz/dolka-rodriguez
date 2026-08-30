@@ -83,7 +83,7 @@ export default function Contact() {
             <h3 className="font-serif font-bold text-lg text-brand-dark truncate">WhatsApp Directo</h3>
             <p className="text-xs text-gray-500 mt-1">Respuesta rápida:</p>
             <a
-              href="https://wa.me/573000000000"
+              href="https://wa.me/573002795084"
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm font-semibold text-emerald-600 hover:text-emerald-700 block mt-1 truncate"

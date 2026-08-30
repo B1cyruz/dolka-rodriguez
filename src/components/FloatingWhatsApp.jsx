@@ -1,7 +1,7 @@
 import { MessageCircle } from "lucide-react";
 
 export default function FloatingWhatsApp() {
-  const whatsappNumber = "573000000000";
+  const whatsappNumber = "573002795084";
   const defaultMessage = encodeURIComponent("¡Hola! Me interesa información sobre la confección de una prenda sobre medida en Dolka Rodríguez Diseños.");
 
   return (
